@@ -1,0 +1,103 @@
+@media(min-width:1500px){
+    .painel .informations{
+        width: 650px;
+    }
+    .painel .informations .title{
+        font-size: 55px;
+        
+    }
+    .painel .informations .text{
+        font-size: 23px;
+        
+    }
+    .footer a:last-child {
+        padding-right: 200px;
+    }
+}
+
+@media(max-width:1024px){
+    .header{
+        padding-bottom: 30px;
+    }
+    .painel{
+        display: flex;
+        flex-direction: column;   
+        text-align: center;
+        gap: 0;
+    }
+    .painel img{
+        width: 650px;
+    }
+
+    .painel .informations .title{
+        padding: 30px;
+    }
+    .painel .informations .text{
+        margin-top: 0;
+        font-size: 25px;
+    }
+    
+    .footer{
+        align-self: flex-start;
+        position: absolute;
+        bottom: 5px;
+    }
+}
+
+@media(max-width: 576px){
+    body{
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-color: var(--cor-primaria);
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        height: 100vh;
+    }
+
+    .header{
+        align-self: flex-start;
+        padding: 25px;
+    }
+    .header img{
+        width: 150px;
+    }
+    .painel{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+    }
+    .painel img {
+        width: 320px;
+    }
+    .painel .informations{
+        padding: 0 35px;
+        text-align: center;
+        align-items: center;
+    }
+    .painel .informations .title{
+        font-size: 23px;
+        padding: 0;
+        width: 300px;
+        
+    }
+    .painel .informations .text {
+        font-size: 16px;
+        margin-top: 18px;
+    }
+    .painel .informations .register{
+        font-size: 14px;
+        width: 220px;
+        height: 45px;
+    }
+
+    .footer{
+        justify-content: center;
+    }
+
+    .footer a{
+        padding: 30px 8px;
+    }
+
+    .footer a:last-child{
+        margin-right: 0;
+    }
+}

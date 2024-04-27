@@ -1,7 +1,7 @@
 # Quest HTML e CSS avançados
 
 ## Sobre o desafio:
-Consistia em uma Landing Page Huddle com punica sessão, que ultilizou de habilidades com HTML e CSS.
+Consistia em uma Landing Page Huddle com única sessão, que ultilizou de habilidades com HTML e CSS para ser realizada.
 
 ## Resultado final desktop:
 <img src="src/images/frontend mentor huddle - desktop design.png">

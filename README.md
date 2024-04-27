@@ -9,9 +9,6 @@ Consistia em uma Landing Page Huddle com única sessão, que ultilizou de habili
 ## Resultado final para mobile:
 <img src="src/images/frontend mentor huddle - mobile design.png">
 
-## Link para visualização:
-
-
 ## Source:
     - Imagens em anexo
     - ícones do FontAwesome

@@ -25,7 +25,6 @@ body{
     width: 215px;
 }
 
-
 .painel {
     grid-area: painel;
     display: flex;
@@ -40,8 +39,6 @@ body{
     display: flex;
     flex-direction: column;
     max-width: 650px;
-    /* justify-content: center; */
-
 }
 .painel .informations .title {
     font-family: Poppins, sans-serif;

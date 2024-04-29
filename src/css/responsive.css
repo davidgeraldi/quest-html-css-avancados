@@ -22,13 +22,15 @@
     .painel{
         display: flex;
         flex-direction: column;   
-        text-align: center;
         gap: 0;
     }
     .painel img{
         width: 650px;
     }
-
+    .painel .informations{
+        align-items: center;
+        text-align: center;
+    }
     .painel .informations .title{
         padding: 30px;
     }
@@ -37,10 +39,11 @@
         font-size: 25px;
     }
     
-    .footer{
-        align-self: flex-start;
-        position: absolute;
-        bottom: 5px;
+    .footer {
+        justify-content: center;
+    }
+    .footer a:last-child{
+        margin-right: 0;
     }
 }
 
